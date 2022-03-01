@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宿題1と2</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- 1、work2pcのレイアウトを作ってみる。
+幅960px 背景色#eeeeee 
+
+2、400px以下で縦に並べる。（work2pcのレイアウトに変更）
+画像が330pxしかないのでwidth:100%で無理やり広げてください。
+細かい数値などは気にしません。レイアウトをとる、サイトを作る勉強です。 -->
+<div class="all">
+    <h2>サービス</h2>
+ <div class="lis">
+       <div class="card">
+            <div class=pic><img src="images/main_1.jpg" alt="サービス1"></div>
+            <div class="h3s"><h3>サービス1</h3></div>
+            <div class="des"><p>サービス1サービス1サービス1サービス1サービス1サービス1</p></div>
+       </div>
+
+       <div class="card">
+          <div class=pic><img src="images/main_2.png" alt="サービス2"></div>
+          <div class="h3s"><h3>サービス2</h3></div>
+          <div class="des"><p>サービス2サービス2サービス2サービス2サービス2サービス2</p></div>
+        </div>
+
+      <div class="card">
+           <div class=pic><img src="images/main_3.png" alt="サービス3" ></div>
+           <div class="h3s"><h3>サービス3</h3></div>
+           <div class="des"><p>サービス3サービス3サービス3サービス3サービス3サービス3</p></div>
+       </div>
+  </div>
+</div>
+
+    <script>
+        // work1; 、繰り返し構文で1~10までの数字を足してみよう。
+        // もし、足した値が20以上なら、consoleログに「20以上」と出力。
+        // 20以下なら20以下と出力しよう。
+       
+    //    値の初期化
+       var a = 1;
+       var x =0;
+//A
+       for( i = 1; i <= 10; i++){
+           x = x + a
+           a = a +1
+       }
+       console.log(x);
+//B 
+       var sum = 0;
+       for( i = 1; i <=10; i++){
+           sum=sum + 1
+       }
+       console.log(sum)
+    //    AとBの違いが分からない
+
+     </script>
+</body>
+</html>
